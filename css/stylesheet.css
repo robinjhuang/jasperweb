@@ -1,0 +1,53 @@
+body {
+	min-height: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+/* NAV BAR */
+
+.navbar-inverse {
+	background-color: white;
+	border-color: white;
+
+}
+
+.navbar-toggle {
+	background-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: black;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	background-color: black;
+	color: white;
+}
+
+
+/* PAGES */
+
+.logo-center {
+	width: 244px;
+	margin: 0 auto;
+}
+
+.shape {
+	background-color: black;
+	position: relative;
+	min-height: 100%;
+	height: 900px;
+}
+
+.paper {
+	height: 900px;
+	background-color: purple;
+}
+
+.design {
+	height: 900px;
+	background-color: yellow;
+}
